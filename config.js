@@ -3,25 +3,25 @@ const fs = require('fs-extra')
   
   
  //═══════[Required Variables]════════\\ 
- global.owner = process.env.OWNER_NUMBER.split(",") 
+ global.owner = process.env.OWNER_NUMBER.split("94701839429") 
  global.mongodb = process.env.MONGODB_URI || "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority" 
  global.port= process.env.PORT || 5000 
- global.email = 'sam@secktor.live' 
- global.github = 'https://github.com/vajirabot1' 
- global.location = 'Sri lanka, Rathnapura' 
- global.gurl = 'https://instagram.com/' // add your username 
- global.sudo = process.env.SUDO || '919628516236' 
- global.devs = '919628516236'; 
+ global.email = 'pabasaralakmal0@gmail.com' 
+ global.github = 'https://github.com/Pabasaralakmal2/KING-VAJIRA-MD' 
+ global.location = 'Sri lanka, Kandy' 
+ global.gurl = 'https://instagram.com/_.pabasara_' // add your username 
+ global.sudo = process.env.SUDO || '94701839429' 
+ global.devs = '94701839429'; 
  global.website = 'https://github.com/' //wa.me/+91000000000000 
- global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' 
+ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://files.catbox.moe/yvr808.jpg' 
  module.exports = { 
-   botname:   process.env.BOT_NAME === undefined ? 'King-Vajira' : process.env.BOT_NAME, 
-   ownername: process.env.OWNER_NAME === undefined ? 'Vajira' : process.env.OWNER_NAME,  
+   botname:   process.env.BOT_NAME === undefined ? 'Queen Elza' : process.env.BOT_NAME, 
+   ownername: process.env.OWNER_NAME === undefined ? 'pabasara' : process.env.OWNER_NAME,  
    author:  process.env.PACK_INFO.split(";")[0] === undefined ? '' : process.env.PACK_INFO.split(";")[0], 
    auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS, 
    packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '-' : process.env.PACK_INFO.split(";")[1],
    sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID, 
-   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION , 
+   autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION , 
    antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD, 
    alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
 voice  :  process.env.AUTO_VOICE === undefined ? false : process.env.AUTO_VOICE, 
@@ -35,7 +35,7 @@ voice  :  process.env.AUTO_VOICE === undefined ? false : process.env.AUTO_VOICE,
    antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES, 
    antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION, 
    BRANCH: 'main',  
-   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE, 
+   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? 'Hi There I'm Online' : process.env.ALIVE_MESSAGE, 
    autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO, 
    OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY, 
    heroku:  process.env.heroku === undefined ? false : process.env.heroku, 
