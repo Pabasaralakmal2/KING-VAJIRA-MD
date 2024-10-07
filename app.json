@@ -1,14 +1,14 @@
 { 
-   "name": "VAJIRA", 
+   "name": "PABASARA", 
    "description": "A Whatsapp md bot built in NodeJs to make experience better", 
-   "logo": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+   "logo": "https://files.catbox.moe/yvr808.jpg", 
    "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"], 
    "success_url": "/", 
    "stack": "container", 
  "env": { 
    "OWNER_NAME": { 
-   "description": "අයිතිකාරයගෙ නම", 
-       "value": "vajira" 
+   "description": "", 
+       "value": "PABASARA" 
    }, 
    "ALIVE_MESSAGE": { 
      "description": "බොට්ට Alive message එකක්", 
@@ -31,7 +31,7 @@
      }, 
     "THUMB_IMAGE": { 
      "description": "බොට්ට THUMBNAIL එකක් දාන්න.", 
-      "value": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg" 
+      "value": "https://files.catbox.moe/yvr808.jpg" 
      }, 
      "ANTI_BAD_WORD": { 
      "description": "Put words here. If you want it enabled in your bot otherwise leave it blank", 
@@ -67,7 +67,7 @@
    }, 
    "OWNER_NUMBER": { 
      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")", 
-        "value": "94766943622" 
+        "value": "94701839429" 
    }, 
      "OPENAI_API_KEY": {
      "description": "කරුණාකර ඔබේ OPENAI api Key එක මෙහි දමන්න.ඒක ගන්න beta.openai.com ", 
@@ -80,7 +80,7 @@
    }, 
      "THEME": { 
      "description": "ඔබට භාවිතා කිරීමට අවශ්‍ය Theme එක දමන්න. ලබා ගත හැකි තේමා are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..", 
-      "value": "VAJIRA" 
+      "value": "PABASARA" 
    }, 
      "WORKTYPE": { 
    "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.", 
@@ -113,7 +113,7 @@
    },   
    "PACK_INFO": { 
      "description": "Put packname;authorname.", 
-      "value": "Vajira;Nimesha", 
+      "value": "PABASARA;BOT", 
       "required": false  
    }, 
    "heroku": { 
