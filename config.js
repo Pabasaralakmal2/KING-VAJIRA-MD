@@ -20,7 +20,7 @@ const fs = require('fs-extra')
    author:  process.env.PACK_INFO.split(";")[0] === undefined ? '' : process.env.PACK_INFO.split(";")[0], 
    auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS, 
    packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '-' : process.env.PACK_INFO.split(";")[1],
-   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID, 
+   sessionName:  process.env.SESSION_ID === undefined ? 'VAJIRA;;;ActualCheyenne' : process.env.SESSION_ID, 
    autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION , 
    antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD, 
    alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
